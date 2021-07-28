@@ -1,61 +1,57 @@
 {
   "main": {
-    "name":"James Caraang",
-    "occupation":"A Full Stack Creative.",
+    "name": "James Caraang",
+    "occupation": "A Full Stack Creative.",
     "description": "Building things takes both a creative and logical mind. Through my experience as a Web Developer and Creative Entrepreneur, I've gained insights and knowledge that allows me to solve problems in creative ways.",
-    "image":"profilepic.png",
+    "image": "profilepic.png",
     "bio": "Programming is like fine art – it takes time, practice and dedication to produce beautiful code. As a programmer with a background in music and art, I understand the challenge of articulating complex ideas in a team setting with collaborators. This pain point is my motivation for writing clean, dry, concise code that makes people shed a tear (in a good way). I am a quick learner who is highly adaptive and able to work in stressful situations, whether in a team setting or in a remote, autonomous setting. I hope to gain experience in the workplace that will allow me to showcase my communication skills and further expand my development knowledge.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "jamescaraang@gmail.com",
     "phone": "778-697-1893",
-    "address":{
-      "street":"1390 East 23rd Avenue",
-      "city":"Vancouver",
-      "state":"BC",
-      "zip": "V5V1Z2"
-    },
-    "resumedownload":"https://drive.google.com/file/d/1MWQOyap5nEXBBO3QhShFg1R69yla4MFl/view?usp=sharing",
-    "social":[
-      {
-        "name":"linkedin",
+    "resumedownload": "https://drive.google.com/file/d/1eDAQuZMO65c1LKWAiDxRg3KNATSjGjpk/view?usp=sharing",
+    "social": [{
+        "name": "linkedin",
         "url": "https://www.linkedin.com/in/jamescaraang/",
-        "className":"fa fa-linkedin"
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/hvdsonofficial",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "http://instagram.com/hvdsonofficial",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"http://github.com/hvdson",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "http://github.com/hvdson",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
+  "resume": {
+    "education": [{
         "school": "Lighthouse Labs",
         "degree": "Web Development Bootcamp",
         "graduated": "January 2018 Cohort",
         "description": ""
       },
       {
-        "school":"University Of British Columbia",
+        "school": "University Of British Columbia",
         "degree": "Computer Science Major",
         "graduated": "January 2017 - January 2018",
-        "description":""
+        "description": ""
       },
       {
-        "school":"Macewan University",
-        "degree":"Computer Science Major",
-        "graduated":"January 2014 - January 2016",
-        "description":""
+        "school": "Macewan University",
+        "degree": "Computer Science Major",
+        "graduated": "January 2014 - January 2016",
+        "description": ""
       }
     ],
-    "work":[
+    "work": [{
+        "company": "Rise People Inc.",
+        "title": "Software Engineer",
+        "years": "March 2021 - Present",
+        "description": "Worked alongside product managers as part of the UI Unification team to migrate the existing monolith architecture codebase in Angular to a micro - frontend architecture in React and Next.js, which served hundreds of businessess across Canada. \nCreated unit tests and integration tests to cover technical debt accrued and increased code coverage to 90+% \nCreated an internal tool for the sales team using RESTful APIs in Express.js that saved the company thousands of dollars on a monthly subscription plan."
+      },
       {
         "company": "Nani Beats LTD.",
         "title": "Co-Founder",
@@ -63,14 +59,13 @@
         "description": "Created a Single Page Application using MongoDB, Express, React and Node.js stack with the intent to create a subscription and music streaming platform, allowing users to download music to use in their own projects. Integration of the AWS SDK was used as cloud storage for digital assets and Stripe as payment gateway. Redux used for application state management. \nEngineered recording sessions, and produced musical sound tracks for various artists. \nActively solicited prospective clients and used managed marketing strategies to draw a diverse client base. \nNegotiated pricing favorable to clients and company."
       },
       {
-        "company":"Smashpotatoes Interactive Inc.",
-        "title":"Software Intern",
-        "years":"April 2018 - August 2018",
+        "company": "Smashpotatoes Interactive Inc.",
+        "title": "Software Intern",
+        "years": "April 2018 - August 2018",
         "description": "Analyzed existing codebase to determine the functionality of the trivia game software being used by clients in the hospitality industry. \nHelped refactor and improve legacy LAMP stack codebase to a newer stack using MongoDB, Express, React and Node.js. \nAided in building the software API to send and retrieve data from AWS. \nDeveloped data scraper in Python to aggregate information from potential clients all across Canada."
       }
     ],
-    "codingskills":[
-      {
+    "codingskills": [{
         "name": "CSS",
         "level": "70%"
       },
@@ -79,8 +74,8 @@
         "level": "60%"
       },
       {
-        "name":"Git",
-        "level":"70%"
+        "name": "Git",
+        "level": "70%"
       },
       {
         "name": "HTML5",
@@ -99,12 +94,11 @@
         "level": "60%"
       },
       {
-        "name":"React",
-        "level":"80%"
+        "name": "React",
+        "level": "80%"
       }
     ],
-    "creativeskills": [
-      {
+    "creativeskills": [{
         "name": "Audio Engineering",
         "level": "90%"
       },
@@ -126,9 +120,8 @@
       }
     ]
   },
-  "portfolio":{
-    "projects": [
-      {
+  "portfolio": {
+    "projects": [{
         "title": "Nani Beats Website",
         "category": "Single Page Application using MongoDB, Express, React and Node.js stack with the intent to create a subscription and music streaming platform.",
         "image": "nani-beats-website.png",
@@ -141,15 +134,15 @@
         "url": "https://hvdson.github.io/tone-js-sandbox/"
       },
       {
-        "title":"Moody",
+        "title": "Moody",
         "category": "An image and facial recognition app that returns a playlist depending on a given image. Utilizes Amazon's Rekognition for machine learning and Spotify's API for a playlist.",
-        "image":"moody.png",
+        "image": "moody.png",
         "url": "https://github.com/hvdson/moodring"
       },
       {
-        "title":"Jungle",
+        "title": "Jungle",
         "category": "A mini e-commerce application built with Ruby on Rails with integration of the Stripe API for handling user transactions.",
-        "image":"jungle-rails.png",
+        "image": "jungle-rails.png",
         "url": "https://github.com/hvdson/jungle-rails"
       },
       {
@@ -159,15 +152,15 @@
         "url": "https://github.com/hvdson/tweeter"
       },
       {
-        "title":"Chatty",
+        "title": "Chatty",
         "category": "A single page messaging app. React used for the front end and WebSockets on the back for real-time messaging functionality.",
-        "image":"chatty.png",
+        "image": "chatty.png",
         "url": "https://github.com/hvdson/chatty-app"
       },
       {
-        "title":"TODO.",
+        "title": "TODO.",
         "category": "Smart to-do list app that categorizes your task into one of four categories using Bayes-Classifier and provides external links through the Google-query API.",
-        "image":"todo.jpg",
+        "image": "todo.jpg",
         "url": "https://github.com/lauradew/toDoList"
       }
     ]
